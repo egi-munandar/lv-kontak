@@ -28,6 +28,9 @@ export default function KontakEdit({ kontak }) {
             }
         })
     }
+    const test = () => {
+        console.log('a');
+    }
     return (
         <AuthenticatedLayout header={
             <nav className="flex">
